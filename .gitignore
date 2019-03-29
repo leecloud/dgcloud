@@ -1,0 +1,17 @@
+# Default ignored files
+/.idea/shelf/
+/.idea/workspace.xml
+
+# Project exclude paths
+/cloud-common/target/
+/cloud-server/target/
+/cloud-zuul/target/
+
+# Datasource local storage ignored files
+/.idea/dataSources/
+dataSources.local.xml
+
+# Editor-based HTTP Client requests
+/.idea/httpRequests/
+rest-client.private.env.json
+http-client.private.env.json

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ybatis.org//DTO Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lee.cloudadmin.dao.DeptDao">
+    <select id="get" resultType="com.lee.cloudadmin.domain.DeptDo">
+        select * from sys_dept where dept_id = #{deptId}
+    </select>
+</mapper>
